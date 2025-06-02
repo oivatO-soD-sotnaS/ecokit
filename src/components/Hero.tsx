@@ -6,7 +6,7 @@ interface HeroProps {
 
 const Hero: FC<HeroProps> = ({ setActiveSection }) => {
   return (
-    <div className="relative bg-green-100">
+    <div className="relative">
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">

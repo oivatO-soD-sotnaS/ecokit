@@ -13,7 +13,8 @@ function App() {
   const [activeSection, setActiveSection] = useState('home')
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white flex flex-col justify-between">
+    <>
+    <div className="min-h-screen bg-white flex flex-col justify-between">
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       <main>
         <section id="home" className={`border ${activeSection === 'home' ? 'block' : 'hidden'}`}>
@@ -38,6 +39,7 @@ function App() {
       </main>
       <Footer />
     </div>
+    </>
   )
 }
 

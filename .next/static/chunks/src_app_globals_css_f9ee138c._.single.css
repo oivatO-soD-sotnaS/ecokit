@@ -146,7 +146,7 @@
   hr {
     height: 0;
     color: inherit;
-    border-top-width: 1px;
+    op-width: 1px;
   }
 
   abbr:where([title]) {
@@ -729,6 +729,10 @@
     height: 1px;
   }
 
+  .h-\[90svh\] {
+    height: 90svh;
+  }
+
   .h-\[var\(--radix-navigation-menu-viewport-height\)\] {
     height: var(--radix-navigation-menu-viewport-height);
   }
@@ -1174,12 +1178,12 @@
   }
 
   .rounded-t-\[10px\] {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    op-left-radius: 10px;
+    op-right-radius: 10px;
   }
 
   .rounded-tl-sm {
-    border-top-left-radius: var(--radius-sm);
+    op-left-radius: var(--radius-sm);
   }
 
   .border {
@@ -1202,9 +1206,9 @@
     border-block-width: 1px;
   }
 
-  .border-t {
-    border-top-style: var(--tw-border-style);
-    border-top-width: 1px;
+  . {
+    op-style: var(--tw-border-style);
+    op-width: 1px;
   }
 
   .border-r {
@@ -1249,7 +1253,7 @@
     }
   }
 
-  .border-transparent {
+  .ransparent {
     border-color: #0000;
   }
 
@@ -1281,8 +1285,8 @@
     }
   }
 
-  .border-t-transparent {
-    border-top-color: #0000;
+  .-transparent {
+    op-color: #0000;
   }
 
   .border-l-transparent {
@@ -2191,7 +2195,7 @@
   }
 
   .first\:rounded-l-md:first-child {
-    border-top-left-radius: var(--radius-md);
+    op-left-radius: var(--radius-md);
     border-bottom-left-radius: var(--radius-md);
   }
 
@@ -2201,7 +2205,7 @@
   }
 
   .last\:rounded-r-md:last-child {
-    border-top-right-radius: var(--radius-md);
+    op-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
   }
 
@@ -3654,12 +3658,12 @@
   }
 
   .\[\&\:has\(\>\.day-range-end\)\]\:rounded-r-md:has( > .day-range-end) {
-    border-top-right-radius: var(--radius-md);
+    op-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
   }
 
   .\[\&\:has\(\>\.day-range-start\)\]\:rounded-l-md:has( > .day-range-start) {
-    border-top-left-radius: var(--radius-md);
+    op-left-radius: var(--radius-md);
     border-bottom-left-radius: var(--radius-md);
   }
 
@@ -3672,12 +3676,12 @@
   }
 
   .first\:\[\&\:has\(\[aria-selected\]\)\]\:rounded-l-md:first-child:has([aria-selected]) {
-    border-top-left-radius: var(--radius-md);
+    op-left-radius: var(--radius-md);
     border-bottom-left-radius: var(--radius-md);
   }
 
   .last\:\[\&\:has\(\[aria-selected\]\)\]\:rounded-r-md:last-child:has([aria-selected]) {
-    border-top-right-radius: var(--radius-md);
+    op-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
   }
 
@@ -3710,7 +3714,7 @@
   }
 
   .\[\&\:has\(\[aria-selected\]\.day-range-end\)\]\:rounded-r-md:has([aria-selected].day-range-end) {
-    border-top-right-radius: var(--radius-md);
+    op-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
   }
 

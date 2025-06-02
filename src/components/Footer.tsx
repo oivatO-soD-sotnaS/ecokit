@@ -25,15 +25,15 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <p className="text-green-100 mb-2">
-              <span className="font-medium">Email:</span> otavio@unix.com.br
+              <span className="font-medium">Email:</span> heitormarruda@gmail.com
             </p>
             <p className="text-green-100 mb-2">
-              <span className="font-medium">Telefone:</span> (45) 9 9127-7655 
+              <span className="font-medium">Telefone:</span> (45) 9 9944-6027
             </p>
           </div>
         </div>
         
-        <div className="mt-8 pt-6 border-t border-green-700 text-center">
+        <div className="mt-8 pt-6  border-green-700 text-center">
           <p className="text-green-100">
             &copy; {new Date().getFullYear()} EcoKit Escolar.
           </p>
